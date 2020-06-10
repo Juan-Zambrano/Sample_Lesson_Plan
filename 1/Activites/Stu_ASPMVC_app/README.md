@@ -14,6 +14,9 @@ calculation.
  }
 
  ```
+ <img src="/Activities/Stu_ASPMVC_app/Resources/Sinx.png" alt="sinx"
+	title="taylor series approximation for Sin(X)" width="150" height="100" />
+ 
 
 Sudo code:
   
