@@ -7,7 +7,7 @@ In the Unsolved file the application that the instructor started on is provided.
 calculation.
 
 # **Use:**
-Sin(x) display(Markdown('$1.0-q \\approx 0.99,0.5,0.0$'))  $\sum_{k=0}^{10} t_k$ $\frac{$(-1)^k$ $x^2k+1$}{(2k+1)!}$
+&emsp; Sin(x) ~  $\sum_{k=0}^{10} t_k$ $\frac{$(-1)^k$ $x^2k+1$}{(2k+1)!}$
 
 Sudo code:
   
