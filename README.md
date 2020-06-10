@@ -1,6 +1,6 @@
 # Unit 1: Introduction to .NET
 Lesson Plans
-* [`1.1.0` - Lesson Plan](Sample_Lesson_Plan/1/LessonPlan.md)
+* [`1.1.0` - Lesson Plan](Sample_Lesson_Plan/1/LessonPlan.md/)
 * `1.1.1` - Lesson Plan*
 * `1.2.0` - Lesson Plan(placeholder for future content.)
 
