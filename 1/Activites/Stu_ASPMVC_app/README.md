@@ -14,7 +14,7 @@ calculation.
  }
 
  ```
-![Sinx](Resource/sinx.png)
+![Sinx](1/Activites/Stu_ASPMVC_app/Resource/sinx.PNG)
  
 
 Sudo code:
