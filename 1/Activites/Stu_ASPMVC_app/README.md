@@ -14,7 +14,7 @@ calculation.
  }
 
  ```
-![](/Resource/Sinx.png)
+![Sinx](Resource/Sinx.png)
  
 
 Sudo code:
