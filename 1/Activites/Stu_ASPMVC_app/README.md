@@ -21,6 +21,7 @@ Sudo code:
   This is a hard excerise for the first lecture, so don't be discourage. Take time after class to finsh this activity and the Instructor will go
   over in the beginning of the nect lecture.
   
+---
   **Take home**
   Despite this being a bit of a challenging assignment, look how far you have come in this lecture. Even if the functionality was not perfectly 
   implemented consider how much longer it would have taken to make a web page of this nature using plain javascript, html, and css. This is the power
