@@ -7,19 +7,9 @@ In the Unsolved file the application that the instructor started on is provided.
 calculation.
 
 # **Use:**
-
- ```c#
- public static void main(int x){
- Console.writeline("Hello World");
- }
-
- ```
  
-![Sinx](1/Activites/Stu_ASPMVC_app/Resource/sinx.PNG)
-
 ![Sinxx](Resource/sinx.PNG)
  
-
 Sudo code:
   
   Sin(x):
