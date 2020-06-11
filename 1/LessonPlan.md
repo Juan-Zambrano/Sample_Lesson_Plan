@@ -232,7 +232,7 @@ namespace WebApplication1.Pages
 ```
 
 ### 10. Student Do: Add more functionality to the calculator web application (10 min)
-Student Activity: [Stu_Calc_WebApp](../../1/Activites/Stu_Calc_WebApp/README.PNG)
+Student Activity: [Stu_Calc_WebApp](https://github.com/Juan-Zambrano/Sample_Lesson_Plan/tree/master/1/Activites/Stu_Calc_WebApp)
 
 Have the students take off where you left off by adding more functionalilty to the calculator web app. Have your TA assist and prevent students from getting overwhelmed with all of the features in visual studio.
 The three locations where students need to add features too are:
