@@ -46,7 +46,7 @@ why .NET
 ### 5. Instructor Do: Talk about visual studio and create sample project (5 min)
 project will be the Ins_console_app, add 2 functions.
 
-```
+```c#
 using System;
 using System.Reflection.Metadata.Ecma335;
 using System.Runtime.CompilerServices;
