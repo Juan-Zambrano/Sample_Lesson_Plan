@@ -8,4 +8,4 @@ Lesson Plans with a * consist of extra material for a 3hr long lecture.
 
 
 
-Create new ASP.NET MVC web project and implement calculator console app functionality to it.
+Create new ASP.NET web project and implement calculator console app functionality to it.
