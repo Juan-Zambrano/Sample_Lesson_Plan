@@ -2,28 +2,26 @@
 
 ---
 
-### Overview
+# Overview
 
 write overview of today's class
 
-### Class Objectives 
+# Class Objectives 
 
-# Declarative Memory Objectives (concepts/facts/semantics)
+### Declarative Memory Objectives (concepts/facts/semantics)
 
-* objective 1
+* .NET core concepts
 
-* objective 2
+* C# and objective oriented concepts required for .NET
 
-# Procedural Memory Objectives (learn by doing/type and hand write code)
-
-* Complete syntax coding activity (notebook) 
+### Procedural Memory Objectives (learn by doing/type and hand write code)
 
 * Write a calculator console application. (Visual Studio)
 
-* Write simple OOP console application(Visual Studio)
-**Goal of this activity is to have students remember basic objective oriented programming principles that are needed for a simple a web application. (last activity)
+* Hand write simple OOP hello world application
+**Goal of this activity is to have students remember basic objective oriented programming principles that are needed for a simple a web application.
 
-* Write a simple ASP.NET MVC
+* Write a simple ASP.NET web application (Visual Studio)
 
 ### Class Slides
 
@@ -37,39 +35,31 @@ write overview of today's class
 
 ### 1. Instructor Do: Course pre-reqs and pace (2 min)
 
-explain prereqs and assumptions. recommend resource to catch up.
+explain prereqs and assumptions. recommend resource to catch up. Installing
 
-### 2. Instructor Do: go through the notebook and slide show 
+### 2. Instructor Do: Introduce .NET  (15 min)
 talk about .NET and a high level overview of all that is possible
+why .NET
 
-### 3. Student Do: Syntax coding activity
+### 4. Instructor Do: go over basic syntaxs (5 min)
 
-### 4. Instructor Do: go over syntax activity
+### 5. Instructor Do: Talk about visual studio and create sample project (5 min)
+project will be the Ins_console_app, add 2 functions.
 
-### 5. Instructor Do: Talk about visual studio and create sample project
-.
-### 6. Instructor Do: Begin calculator console app activity (only add 4 operations)
+### 6. Instructor Do: Ask students about classes, objects, methods, properties (5 min) 
+If students catch on quickly then review basic OOP concepts 
 
+### 7. Student Do (Individual Activity): Programming the rust out on paper. (5 min)
+Have students write with pen and paper a class that contains a method called main(). The method will write "hello world" to a console.
+This activity needs to be done in c#. Emphasize to the students that the best way to fully learn a new language is to write it down with pen/pencil and paper. This is a form of procedural learning.
 
-### 7. Instructor Do:Ask student about classes, objects, methods, properties, members 
-If students catch on quickly then review basic OOP concepts (5 minutes)
+### 8. Instructor Do: Introduce the web stack of .NET (5 min)
 
-### 8. Instructor Do: Start new console app project and that hammers in basic oop concepts.
+### 9. Instructor Do: Implement logic from console app into web application (8 minutes)
 
-### 9. Student Do: Have students add a new method to it. (5 minutes)
+### 10. Student Do: Add more functionality to Calc_Web_App (10 min)
+Encourage student to take this application and continue to add more functionalilty to it after class. If time permits go over the solution file during class. Begin the next class with a brief review of this activity solution.
 
-### 10. Instructor Do: Go over the past activity (5 minutes)
-
-### 11. 5 minute break
-
-### 12. Review more on .NET Framework and talk more about ASP.NET Framework
-
-
-
-### 13. Instructor Do: Bring the concept home.(End class) 15 minutes
-Create a new ASP.NET MVC web project and implementing the calculator console app functionality to it. (5 minutes)
--add 2 buttons and text bar to input numbers. 
--leave 5 minutes for questions.
-
-### 14. Instructor Do: Encourage student to take this application and continue to add more functionalilty to it.
+---
+End Class
 
