@@ -1,0 +1,42 @@
+﻿@page
+@model IndexModel
+@{
+    ViewData["Title"] = "Home page";
+}
+
+    <div class="text-center">
+        <h1>Wow .NET Core is awesome and so is 2u!!!</h1>
+
+        <h3>If using the Factorial button only input the value in the first field and input 0 in the second field.</h3>
+
+        <h1>@Model.DisplayVal</h1>
+
+       
+        <form method="post">
+
+            <div>
+
+                <input type="number" name="num1" />
+                <input type="number" name="num2" />
+            </div>
+            <br />
+            <div>
+
+                <br />
+                <input type="radio" name="operation" value="add" /> Add<br />
+                <input type="radio" name="operation" value="subtract" /> Subtract <br />
+                <input type="radio" name="operation" value="divide" /> Divide <br />
+                <input type="radio" name="operation" value="multiple" />Multiply<br />
+                <input type="radio" name="operation" value="factorial" selected />Factorial<br />
+
+                <input type="submit" value="Submit" />
+
+
+            </div>
+
+        </form>
+        
+        </div>
+       
+
+
