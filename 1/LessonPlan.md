@@ -123,7 +123,7 @@ This activity needs to be done in c#. Emphasize to the students that the best wa
 
         private void _checkOp()
         {
-            //Add conditional logic
+            //Add conditional logic to call on methods below.
             if (this.operation == "add")
             {
                 _add();
@@ -134,15 +134,17 @@ This activity needs to be done in c#. Emphasize to the students that the best wa
             }
         }
 
-        //Add methods to use above.
+        //write add and subtract methods to use above.
         private void _add()
         {
+            //fill in here
             var _retval = this.input_one + this.input_two;
             this.retval = _retval;
         }
 
         private void _subtract()
         {
+            //fill in here
             var _retval = this.input_one - this.input_two;
             this.retval = _retval;
         }
@@ -172,6 +174,7 @@ The front end file index.cshtml
             <br />
             <div>
                 <br />
+                @*Add the radio input tags in html*@
                 <input type="radio" name="operation" value="add" /> Add<br />
                 <input type="radio" name="operation" value="subtract" /> Subtract <br />
                 
@@ -202,13 +205,18 @@ namespace WebApplication1.Pages
 
         public void OnPost()
         {
+            //Instantiate calculator object
             Models.MathOperations calc = new Models.MathOperations();
+            
+            //Access Form attributes
             calc.input_one =  Convert.ToDouble(Request.Form["num1"]);
             calc.input_two = Convert.ToDouble(Request.Form["num2"]);
             calc.operation = Request.Form["operation"];
 
+            //run calc
             calc.Run();
-
+            
+            //Display Value
             DisplayVal = calc.retval;
         }
 
