@@ -40,6 +40,7 @@ explain prereqs and assumptions. recommend resource to catch up. Installing
 ### 2. Instructor Do: Introduce .NET  (15 min)
 talk about .NET and a high level overview of all that is possible
 why .NET
+![.NET_IMG](https://www.intelegain.com/wp-content/uploads/2018/06/xNet-Standerd-Library.png.pagespeed.ic.Ur3-yx6RAs.png)
 
 ### 4. Instructor Do: go over basic syntaxs (5 min)
 
