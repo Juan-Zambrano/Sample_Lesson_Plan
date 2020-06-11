@@ -60,7 +60,7 @@ Today many legacy systems are running in visual basic or older versions of .NET 
 
 Resources: [.NET Architecture guides](https://dotnet.microsoft.com/learn/dotnet/architecture-guides)
 
-The package manager used in this stack is called ![Nuget](https://www.nuget.org/) 
+The package manager used in this stack is called [Nuget](https://www.nuget.org/) 
 
 ---
 ### 4. Instructor Do: go over basic syntaxs (5 min)
