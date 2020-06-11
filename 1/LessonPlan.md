@@ -60,5 +60,6 @@ This activity needs to be done in c#. Emphasize to the students that the best wa
 ### 10. Student Do: Add more functionality to Calc_Web_App (10 min)
 Encourage student to take this application and continue to add more functionalilty to it after class. If time permits go over the solution file during class. Begin the next class with a brief review of this activity solution.
 
-
+---
+End Class
 
