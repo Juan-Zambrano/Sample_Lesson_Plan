@@ -249,7 +249,7 @@ Encourage student to take this application and continue to add more functionalil
 ---
 
 ### If class is 3 hours, go through the following 5 questions in order to fully assess weather students are on the right track or not.
-[Part 2](Sample_Lesson_Plan/1/Supplemental/)
+[Part 2](https://github.com/Juan-Zambrano/Sample_Lesson_Plan/tree/master/1/Supplemental)
 
 ---
 End Class
