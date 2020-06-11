@@ -6077,11 +6077,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\juanz\\Documents\\FinTech\\Sample_Lesson_Plan\\1\\Activites\\Ins_Calc_WebApp\\Solved\\WebApplication1\\WebApplication1.csproj",
+      "projectUniqueName": "C:\\Users\\juanz\\Documents\\FinTech\\Sample_Lesson_Plan\\1\\Activites\\Stu_Calc_WebApp\\Solved\\WebApplication1\\WebApplication1.csproj",
       "projectName": "WebApplication1",
-      "projectPath": "C:\\Users\\juanz\\Documents\\FinTech\\Sample_Lesson_Plan\\1\\Activites\\Ins_Calc_WebApp\\Solved\\WebApplication1\\WebApplication1.csproj",
+      "projectPath": "C:\\Users\\juanz\\Documents\\FinTech\\Sample_Lesson_Plan\\1\\Activites\\Stu_Calc_WebApp\\Solved\\WebApplication1\\WebApplication1.csproj",
       "packagesPath": "C:\\Users\\juanz\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\juanz\\Documents\\FinTech\\Sample_Lesson_Plan\\1\\Activites\\Ins_Calc_WebApp\\Solved\\WebApplication1\\obj\\",
+      "outputPath": "C:\\Users\\juanz\\Documents\\FinTech\\Sample_Lesson_Plan\\1\\Activites\\Stu_Calc_WebApp\\Solved\\WebApplication1\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Microsoft\\Xamarin\\NuGet\\"

@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "a8Dhb2Pj+q0i/ZqinTKK9VhRHWLvLz4StoY5TWseUJeG2DUA7PMnmSxsRYE6UZyHlRb73VS0zBb8yUkDth37Ig==",
+  "dgSpecHash": "h0Kf+0j3C7Ne+gRyxhuWmhTFBCesPQMqpwsbqwoc5UrL3jEkYUGwBH5qRULLs7Jf1v0zjirfXi7w4Hk+9c1T8g==",
   "success": true,
-  "projectFilePath": "C:\\Users\\juanz\\Documents\\FinTech\\Sample_Lesson_Plan\\1\\Activites\\Ins_Calc_WebApp\\Solved\\WebApplication1\\WebApplication1.csproj",
+  "projectFilePath": "C:\\Users\\juanz\\Documents\\FinTech\\Sample_Lesson_Plan\\1\\Activites\\Stu_Calc_WebApp\\Solved\\WebApplication1\\WebApplication1.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\juanz\\.nuget\\packages\\microsoft.aspnetcore.html.abstractions\\2.2.0\\microsoft.aspnetcore.html.abstractions.2.2.0.nupkg.sha512",
     "C:\\Users\\juanz\\.nuget\\packages\\microsoft.aspnetcore.razor\\2.2.0\\microsoft.aspnetcore.razor.2.2.0.nupkg.sha512",
