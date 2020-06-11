@@ -26,6 +26,7 @@ The factorial method is located inside the SpecialFunctions class. Feel use it d
   
   
   Make sure that your webpage closely reseambles the image below.
+  ![](final_app.PNG)
   
 ---
   **Take home**
