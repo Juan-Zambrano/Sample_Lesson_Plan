@@ -54,11 +54,11 @@ As we can see in the diagram above, one would write C# code, which would then ge
 
 The image below depicts a high-level view of the microsoft .NET software platform. .NET Framework is the predecessor to .NET Core, where .NET Framework was developed for windows operating systems. .NET Core is new and microsofts goal with developing this framework was the participate in the open-source/cross platform race currently going on. In short Xamarin is cross platform .NET for mobile developement.
 
-![.NET_IMG](https://www.intelegain.com/wp-content/uploads/2018/06/xNet-Standerd-Library.png.pagespeed.ic.Ur3-yx6RAs.png)
+[.NET_IMG](https://www.intelegain.com/wp-content/uploads/2018/06/xNet-Standerd-Library.png.pagespeed.ic.Ur3-yx6RAs.png)
 
 Today many legacy systems are running in visual basic or older versions of .NET framework. Despite the age and decades of success, Microsoft keeps pooring billions into their platform and continues to enhance their cloud offerings. Along with visual studio(The ide that we will use) and the upcoming release's of .NET Core , it is becoming easier to bridge local software developement with azure(microsoft cloud). 
 
-Resources: ![.NET Architecture guides](https://dotnet.microsoft.com/learn/dotnet/architecture-guides)
+Resources: [.NET Architecture guides](https://dotnet.microsoft.com/learn/dotnet/architecture-guides)
 
 The package manager used in this stack is called ![Nuget](https://www.nuget.org/) 
 
