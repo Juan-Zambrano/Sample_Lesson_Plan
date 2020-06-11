@@ -92,7 +92,7 @@ namespace Girl
 
 ```
 Methods are define as such
-```
+```c#
 public int func(int a, int b)
 {
     int retval = a + b;
