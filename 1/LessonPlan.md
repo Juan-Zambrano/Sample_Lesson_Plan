@@ -23,11 +23,11 @@ write overview of today's class
 
 * Write a simple ASP.NET web application (Visual Studio)
 
-### Class Slides
+# Class Slides
 
 *Add link to google slide show for instructor to use.
 
-### Instructor Notes
+# Instructor Notes
 
 *write generic instructor notes
 
