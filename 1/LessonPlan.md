@@ -39,13 +39,20 @@ explain prereqs and assumptions. recommend resource to catch up. Installing
 
 ### 2. Instructor Do: Introduce .NET  (15 min)
 Microsoft .NET has been around for two decades. Microsoft began to first build .NET in the 90's but did not release their first build until 2000. In contrast to popular belief by non-technical individuals (cough cough recruiters), .NET or dotnet (that's how it is acutally pronouce) is a software framework not a programming language. That being said think of .NET as a bucket that holds common runtime enviroments,libraries, and other common type systems. Now that we clearify that let's talk about how we develope on this framework. (**Clearify to the students that the term framework alone is a generic term used to describe many software kits.Therefore .NET Framework and .NET Core (what we will be using) both use the .NET software Framework**) There are many ways write on the .NET Framework languages such as vb.net,F#,J#,C++, and C# can be used. The most common language and the one we will use in this course is C# (aka like java but you don't have to worry about memory management as much). 
+
 ![C#_2_.NET](https://docs.microsoft.com/zh-tw/dotnet/csharp/getting-started/media/netarchitecture.png)
 
-As we can see in the diagram above, one would write C# code, which would then get compiled to .NET compliant code (intermediate language). IL code will then be consumed by the CLR(common language runtime) and converted into platform specific code by the JIT (just-in-time) compiler. 
+As we can see in the diagram above, one would write C# code, which would then get compiled to .NET compliant code (intermediate language). IL code will then be consumed by the CLR(common language runtime) and converted into platform specific code by the JIT (just-in-time) compiler. What was discribed above all happends **under the hood** and thats the magic behind this framework. By getting the code into a compliant language, we can now benefit from microsofts powerful libraries.
 
 **Depending on the audiance skill level and intrest level go over this in detail, if the audiance is not intrested glaze over this and jump to the next image.**
 
+The image below depicts a high-level view of the microsoft .NET software platform. .NET Framework is the predecessor to .NET Core, where .NET Framework was developed for windows operating systems. .NET Core is new and microsofts goal with developing this framework was the participate in the open-source/cross platform race currently going on. In short Xamarin is cross platform .NET for mobile developement.
+
 ![.NET_IMG](https://www.intelegain.com/wp-content/uploads/2018/06/xNet-Standerd-Library.png.pagespeed.ic.Ur3-yx6RAs.png)
+
+|a  |b  |c  |
+|---|---|---|
+|t  |   |   |
 
 ### 4. Instructor Do: go over basic syntaxs (5 min)
 
