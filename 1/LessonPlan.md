@@ -99,14 +99,14 @@ This activity needs to be done in c#. Emphasize to the students that the best wa
 
 ### 9. Instructor Do: Implement logic from console app into web application (8 minutes)
 
-```
-public class MathOperations
+```c#
+ public class MathOperations
     {
+        //Define class properties
         public string operation { get; set; }
         public double input_one { get; set; }
         public double input_two { get; set; }
         public double retval { get; set; }
-
 
         public void Run()
         {
@@ -123,6 +123,7 @@ public class MathOperations
 
         private void _checkOp()
         {
+            //Add conditional logic
             if (this.operation == "add")
             {
                 _add();
@@ -131,21 +132,9 @@ public class MathOperations
             {
                 _subtract();
             }
-            if (this.operation == "multiple")
-            {
-                _multiply();
-            }
-            if (this.operation == "divide")
-            {
-                _divide();
-            }
-            if (this.operation == "factorial")
-            {
-                _Calculate_Factorial();
-            }
         }
 
-
+        //Add methods to use above.
         private void _add()
         {
             var _retval = this.input_one + this.input_two;
@@ -157,11 +146,12 @@ public class MathOperations
             var _retval = this.input_one - this.input_two;
             this.retval = _retval;
         }
+    }
         
 ```
 The front end file index.cshtml
 
-```
+```c#
 @page
 @model IndexModel
 @{
@@ -170,15 +160,12 @@ The front end file index.cshtml
 
     <div class="text-center">
         <h1>Wow .NET Core is awesome and so is 2u!!!</h1>
-
-        <h3>If using the Factorial button only input the value in the first field and input 0 in the second field.</h3>
-
+        
         <h1>@Model.DisplayVal</h1>
       
         <form method="post">
 
             <div>
-
                 <input type="number" name="num1" />
                 <input type="number" name="num2" />
             </div>
@@ -198,7 +185,7 @@ The front end file index.cshtml
 
 Index.cshtml.cs is the file where the backend meets with the front end in order to obtain user input and preform opertations on it.
 
-```
+```c#
 
 namespace WebApplication1.Pages
 {
@@ -206,8 +193,6 @@ namespace WebApplication1.Pages
     {
         private readonly ILogger<IndexModel> _logger;
         public double DisplayVal { get; set; }
-
-       
 
         public IndexModel(ILogger<IndexModel> logger)
         {
@@ -229,7 +214,7 @@ namespace WebApplication1.Pages
 
         public void OnGet()
         {
-
+            //for this application , this method is not really needed.
         }
     }
 }
