@@ -10,7 +10,7 @@ calculation.
  
 The factorial method is located inside the SpecialFunctions class. Feel use it directly in the MathOperations class since factorial is a static method or implement it inside that class manually.
 
-'''c# 
+```c# 
   public static int Factorial(int n)
         {
             int _retval = 1;
@@ -22,7 +22,7 @@ The factorial method is located inside the SpecialFunctions class. Feel use it d
             return _retval;
 
         }
-'''
+```
   
   
   Make sure that your webpage closely reseambles the image below.
