@@ -4,7 +4,7 @@
 
 # Overview
 
-Today's class is meant to introduce students to the .NET Software developement framework. This class will focus on understanding .NET concepts, writting c# and getting a feel for using .NET App Models such as ASP.NET Core web app. 
+Today's class is meant to introduce students to the .NET software developement framework. This class will focus on understanding .NET concepts, writting c# and getting a feel for using .NET App Models such as ASP.NET Core web app. 
 
 # Class Objectives 
 
@@ -16,7 +16,7 @@ Today's class is meant to introduce students to the .NET Software developement f
 
 * Visual Studio
 
-### Procedural Memory Objectives (learn by doing/type and hand write code)
+### Procedural Memory Objectives (learn by doing/typing and hand writing code)
 
 * Write a calculator console application. (Visual Studio)
 
@@ -25,13 +25,9 @@ Today's class is meant to introduce students to the .NET Software developement f
 
 * Write a simple ASP.NET web application (Visual Studio)
 
-# Class Slides
-
-*Add link to google slide show for instructor to use.
-
 # Instructor Notes
 
-This lesson was designed for junior to intermediate level developers. Some students may find the material to be slow, while others may be lost due to gaps in core web developement knowledge. Through out this lecture take note of the students body language along with engagement. From prior experience developers who come from java tend to have a smoother transitions compared to a developer who only use's javascript,css, and html for their web stack. Python developers tend to also have a smooth transition assuming they worked on django and flask stacks.
+This lesson was designed for junior to intermediate level developers. Some students may find the material to be slow, while others may be lost due to gaps in core web developement knowledge. Throughout this lecture take note of the students body language along with engagement. From prior experience, developers who come from java tend to have smoother transitions compared to a developer who only uses javascript,css, and html for their web stack. Python developers tend to also have a smooth transition, assuming they've worked on django and flask stacks.
 
 Have your TA observe the class setting and try to explain concepts discussed today by comparing it to the stack that they are most comfortable with.
 
@@ -41,29 +37,29 @@ Have your TA observe the class setting and try to explain concepts discussed tod
 
 Share with students the structure of the course and assumptions. It is assumed that students know the fundamentals of programming and some basic objective oriented programming principles.
 
-Encouarge students to use this [programming reivew](https://dotnet.microsoft.com/learn/dotnet/architecture-guides) link to refresh on any concept that they may feel rusty on.
+Encourage students to use this [programming reivew](https://dotnet.microsoft.com/learn/dotnet/architecture-guides) link to refresh on any concept that they may feel rusty on.
 
 ### 2. Instructor Do: Introduce .NET  (15 min)
-Microsoft .NET has been around for two decades. Microsoft began to first build .NET in the 90's but did not release their first build until 2000. In contrast to popular belief by non-technical individuals (cough cough recruiters), .NET or dotnet (that's how it is acutally pronouce) is a software framework not a programming language. That being said think of .NET as a bucket that holds common runtime enviroments,libraries, and other common type systems. Now that we clearify that let's talk about how we develope on this framework. (**Clearify to the students that the term framework alone is a generic term used to describe many software kits.Therefore .NET Framework and .NET Core (what we will be using) both use the .NET software Framework**) There are many ways write on the .NET Framework languages such as vb.net,F#,J#,C++, and C# can be used. The most common language and the one we will use in this course is C# (aka like java but you don't have to worry about memory management as much). 
+Microsoft .NET has been around for two decades. Microsoft began to first build .NET in the 90's but did not release their first build until 2000. In contrast to popular belief by non-technical individuals, .NET or dotnet (that's how it is acutally pronounced) is a software framework not a programming language. That being said think of .NET as a bucket that holds common runtime enviroments,libraries, and other common type systems. Now that we've clarified that, let's talk about how we develope on this framework. (**Clarify to the students that the term framework alone is a generic term used to describe many software kits.Therefore .NET Framework and .NET Core (what we will be using) both use the .NET software Framework**) There are many ways to write on the .NET Framework languages such as vb.net,F#,J#,C++, and C# can be used. The most common language and the one we will use in this course is C# (aka like java but you don't have to worry about memory management as much). 
 
 ![C#_2_.NET](https://docs.microsoft.com/zh-tw/dotnet/csharp/getting-started/media/netarchitecture.png)
 
-As we can see in the diagram above, one would write C# code, which would then get compiled to .NET compliant code (intermediate language). IL code will then be consumed by the CLR(common language runtime) and converted into platform specific code by the JIT (just-in-time) compiler. What was discribed above all happends **under the hood** and thats the magic behind this framework. By getting the code into a compliant language, we can now benefit from microsofts powerful libraries.
+As we can see in the diagram above, one would write C# code, which would then get compiled to .NET compliant code (intermediate language). IL code will then be consumed by the CLR(common language runtime) and converted into platform specific code by the JIT (just-in-time) compiler. What was described above, all happens **under the hood** and thats the magic behind this framework. By getting the code into a compliant language, we can now benefit from Microsoft's powerful libraries.
 
 **Depending on the audiance skill level and intrest level go over this in detail, if the audiance is not intrested glaze over this and jump to the next image.**
 
-The image below depicts a high-level view of the microsoft .NET software platform. .NET Framework is the predecessor to .NET Core, where .NET Framework was developed for windows operating systems. .NET Core is new and microsofts goal with developing this framework was the participate in the open-source/cross platform race currently going on. In short Xamarin is cross platform .NET for mobile developement.
+The image below depicts a high-level view of the Microsoft .NET software platform. .NET Framework is the predecessor to .NET Core, where .NET Framework was developed for windows operating systems. .NET Core is new and Microsoft's goal with developing this framework was to participate in the open-source/cross platform race currently going on. In short Xamarin is cross platform .NET for mobile developement.
 
 ![.NET_IMG](https://www.intelegain.com/wp-content/uploads/2018/06/xNet-Standerd-Library.png.pagespeed.ic.Ur3-yx6RAs.png)
 
-Today many legacy systems are running in visual basic or older versions of .NET framework. Despite the age and decades of success, Microsoft keeps pooring billions into their platform and continues to enhance their cloud offerings. Along with visual studio(The ide that we will use) and the upcoming release's of .NET Core , it is becoming easier to bridge local software developement with azure(microsoft cloud). 
+Today many legacy systems are running in visual basic or older versions of .NET framework. Despite the age and decades of success, Microsoft keeps pooring billions into their platform and continues to enhance their cloud offerings. Along with visual studio(the idea that we will use) and the upcoming releases of .NET Core, it is becoming easier to bridge local software developement with Azure(Microsoft cloud). 
 
 Resources: [.NET Architecture guides](https://dotnet.microsoft.com/learn/dotnet/architecture-guides)
 
 The package manager used in this stack is called [Nuget](https://www.nuget.org/) 
 
 ---
-### 4. Instructor Do: go over basic syntaxs (5 min)
+### 4. Instructor Do: Go over basic syntax (5 min)
 C# is an objective oriented programming language. Work in classes, use methods to preform actions or operations, and declare properties to store values. 
 
 In C# a namespace is used to denote as a set of classes. The goal of a namespace is to provide isolation amount classes with the same name.
@@ -107,11 +103,11 @@ Share this reasource with students for more syntax documentation [c#](https://ww
 
 The solution file to this sample project is located [here](https://github.com/Juan-Zambrano/Sample_Lesson_Plan/tree/master/1/Activites/Ins_console_App/Solved)
 
-Run this application in debug mode and highlight on some of features that visual studio provides. Meantion to students that there is some slight difference's between visual studio on windows,mac, and linux. 
+Run this application in debug mode and highlight on some of features that visual studio provides. Mention to students that there are some slight differences between visual studio on windows, mac, and linux. 
 
-Create a console app that is similar to the app below. Make sure it is a calculator team with the two methods below since we will be further enhancing this idea throughout this lecture. Make sure to high-light on some of visual studio dominant features such as intellisense,debug mode, break point, and accessing the nuget package.
+Create a console app that is similar to the app below. Make sure it is a calculator team with the two methods below, since we will be further enhancing this idea throughout this lecture. Make sure to highlight on some of visual studio dominant features such as intellisense, debug mode, break point, and accessing the nuget package.
 
-For more reference on visual studio refer to this [link](https://visualstudio.microsoft.com/vs/features/net-development/)
+For more references on visual studio refer to this [link](https://visualstudio.microsoft.com/vs/features/net-development/)
 
 ```c#
 using System;
@@ -153,10 +149,10 @@ namespace CalculatorConsole_App
 
 ```
 
-### 6. Instructor Do: Ask students about classes, objects, methods, properties (5 min) 
-Popcorn call on 4 different students with the option to phone a friend and ask them to describe what one of these means. The act of them explaining in their own words should warm their brain up for the next execerise. 
+### 6. Instructor Do: Ask students about classes, objects, methods, and properties (5 min) 
+Popcorn call on 4 different students with the option to phone a friend and ask them to describe what one of these means. The act of them explaining in their own words should warm their brain up for the next exercise. 
 
-### 7. Student Do (Individual Activity): Programming the rust out on paper. (5 min)
+### 7. Student Do (Individual Activity): Programming the rust out on paper (5 min)
 Have students write with pen and paper a class that contains a method called main(). The method will write "hello world" to a console.
 This activity needs to be done in c#. Emphasize to the students that the best way to fully learn a new language is to write it down with pen/pencil and paper. This is a form of procedural learning.
 
@@ -177,9 +173,9 @@ namespace Whatever_they_call_it
 Most students will miss the namespace part and the using system block. Take this as an opportunity to reinforce those two concepts.
 
 ### 8. Instructor Do: Introduce the web stack of .NET (5 min)
-There are many approaches to web development in the .NET Platform, where the most commandly know one is ASP.NET MVC. For the purpose of this lecture we will focus on ASP.NET RAZOR Page web app, since it has less components to manage and is more beginner friendly.  In future lectures we will build on the this idea and work our way into a more enterprise platform such as ASP.NET MVC. In ASP.NET RAZOR Page there isnt any complicated middle-ware or need for true server-client modeling or design patterns such as model-view-controller(MVC).
+There are many approaches to web development in the .NET Platform, where the most commonly known one is ASP.NET MVC. For the purpose of this lecture we will focus on ASP.NET RAZOR Page web app, since it has less components to manage and is more beginner friendly.  In future lectures we will build on the this idea and work our way into a more enterprise platform such as ASP.NET MVC. In ASP.NET RAZOR Page there isnt any complicated middle-ware or need for true server-client modeling or design patterns such as model-view-controller(MVC).
 
-Explaining to students that by using the .Net framework for web , you do not have to write client-side javascript. In fact you write in C# and microsoft magic happens.
+Explain to students that by using the .Net framework for web, you do not have to write client-side javascript. Instead you write in C# and then microsoft magic happens.
 
 **Warning no human javascript was written in the making of this web app** 
 ![razor_page](https://github.com/Juan-Zambrano/Sample_Lesson_Plan/blob/master/1/Activites/Stu_Calc_WebApp/final_app.PNG)
@@ -190,7 +186,7 @@ For the in class demo grab the [file](https://github.com/Juan-Zambrano/Sample_Le
 After this is done the students have a version that picks up the program from where the instructor left it and their final activity consist of them adding more functionalilty in a similar fashion.
 
 
-For teaching and learning purpose run in debug. meantion to the student what the bin file contains but do not go into too much detail at this point.
+For teaching and learning purposes run in debug. Mention to the student what the bin file contains but do not go into too much detail at this point.
 
 The first file that you need to edit is the MathOperations.cs file (backend calculator logic)
 ```c#
@@ -280,7 +276,7 @@ Then front end index.cshtml file would follow, since we need to display and atta
 
 ```
 
-Fianlly we edit the Index.cshtml.cs file. which is where the backend meets with the front end in order to obtain user input and preform opertations on it.
+Fianlly we edit the Index.cshtml.cs file. which is where the backend meets with the front end in order to obtain user input and perform opertations on it.
 
 ```c#
 
@@ -334,7 +330,7 @@ The three locations where students need to add features too are:
  
  Have students work in debug mode.
 
-Encourage student to take this application and continue to add more functionalilty to it after class (eg. Tan(x),Sin(x),e^x). If time permits go over the ![solution file](https://github.com/Juan-Zambrano/Sample_Lesson_Plan/tree/master/1/Activites/Ins_Calc_WebApp/Solved/WebApplication1) during class. Begin the next class with a brief review of this activity solution.
+Encourage students to take this application and continue to add more functionalilty to it after class (eg. Tan(x),Sin(x),e^x). If time permits go over the ![solution file](https://github.com/Juan-Zambrano/Sample_Lesson_Plan/tree/master/1/Activites/Ins_Calc_WebApp/Solved/WebApplication1) during class. Begin the next class with a brief review of this activity solution.
 
 ---
 
