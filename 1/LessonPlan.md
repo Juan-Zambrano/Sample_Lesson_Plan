@@ -99,6 +99,145 @@ This activity needs to be done in c#. Emphasize to the students that the best wa
 
 ### 9. Instructor Do: Implement logic from console app into web application (8 minutes)
 
+```
+public class MathOperations
+    {
+        public string operation { get; set; }
+        public double input_one { get; set; }
+        public double input_two { get; set; }
+        public double retval { get; set; }
+
+
+        public void Run()
+        {
+            if(this.operation != null)
+            {
+                _checkOp();
+            }
+            else
+            {
+                Console.WriteLine("Error: make sure you are inputing an operation.");
+            }
+        
+        }
+
+        private void _checkOp()
+        {
+            if (this.operation == "add")
+            {
+                _add();
+            }
+            if (this.operation == "subtract")
+            {
+                _subtract();
+            }
+            if (this.operation == "multiple")
+            {
+                _multiply();
+            }
+            if (this.operation == "divide")
+            {
+                _divide();
+            }
+            if (this.operation == "factorial")
+            {
+                _Calculate_Factorial();
+            }
+        }
+
+
+        private void _add()
+        {
+            var _retval = this.input_one + this.input_two;
+            this.retval = _retval;
+        }
+
+        private void _subtract()
+        {
+            var _retval = this.input_one - this.input_two;
+            this.retval = _retval;
+        }
+        
+```
+The front end file index.cshtml
+
+```
+@page
+@model IndexModel
+@{
+    ViewData["Title"] = "Home page";
+}
+
+    <div class="text-center">
+        <h1>Wow .NET Core is awesome and so is 2u!!!</h1>
+
+        <h3>If using the Factorial button only input the value in the first field and input 0 in the second field.</h3>
+
+        <h1>@Model.DisplayVal</h1>
+      
+        <form method="post">
+
+            <div>
+
+                <input type="number" name="num1" />
+                <input type="number" name="num2" />
+            </div>
+            <br />
+            <div>
+                <br />
+                <input type="radio" name="operation" value="add" /> Add<br />
+                <input type="radio" name="operation" value="subtract" /> Subtract <br />
+                
+                <input type="submit" value="Submit" />
+
+            </div>
+        </form>      
+        </div>
+
+```
+
+Index.cshtml.cs is the file where the backend meets with the front end in order to obtain user input and preform opertations on it.
+
+```
+
+namespace WebApplication1.Pages
+{
+    public class IndexModel : PageModel
+    {
+        private readonly ILogger<IndexModel> _logger;
+        public double DisplayVal { get; set; }
+
+       
+
+        public IndexModel(ILogger<IndexModel> logger)
+        {
+            _logger = logger;
+        }
+       
+
+        public void OnPost()
+        {
+            Models.MathOperations calc = new Models.MathOperations();
+            calc.input_one =  Convert.ToDouble(Request.Form["num1"]);
+            calc.input_two = Convert.ToDouble(Request.Form["num2"]);
+            calc.operation = Request.Form["operation"];
+
+            calc.Run();
+
+            DisplayVal = calc.retval;
+        }
+
+        public void OnGet()
+        {
+
+        }
+    }
+}
+
+
+
+```
+
 ### 10. Student Do: Add more functionality to Calc_Web_App (10 min)
 Encourage student to take this application and continue to add more functionalilty to it after class. If time permits go over the solution file during class. Begin the next class with a brief review of this activity solution.
 
