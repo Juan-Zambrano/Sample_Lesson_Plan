@@ -29,7 +29,7 @@ The factorial method is located inside the SpecialFunctions class. Feel use it d
   ![](final_app.PNG)
   
 ---
-  **Take home**
+  **Take home:**
   Despite this being a bit of a challenging assignment, look how far you have come in this lecture. Even if the functionality was not perfectly 
   implemented consider how much longer it would have taken to make a web page of this nature using plain javascript, html, and css. This is the power
   of using .NET for projects. 
