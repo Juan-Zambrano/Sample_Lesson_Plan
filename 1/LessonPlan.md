@@ -161,7 +161,7 @@ Have students write with pen and paper a class that contains a method called mai
 This activity needs to be done in c#. Emphasize to the students that the best way to fully learn a new language is to write it down with pen/pencil and paper. This is a form of procedural learning.
 
 Answer is below in code
-```
+```c#
 Using System;
 namespace Whatever_they_call_it
 {
@@ -182,10 +182,10 @@ There are many approaches to web development in the .NET Platform, where the mos
 Explaining to students that by using the .Net framework for web , you do not have to write client-side javascript. In fact you write in C# and microsoft magic happens.
 
 **Warning no human javascript was written in the making of this web app** 
-![](1/Activites/Stu_Calc_WebApp/final_app.PNG)
+![razor_page](1/Activites/Stu_Calc_WebApp/final_app.PNG)
 
 ### 9. Instructor Do: Implement logic from console app into web application (8 minutes)
-For the in class demo grab the ![file](https://github.com/Juan-Zambrano/Sample_Lesson_Plan/tree/master/1/Activites/Ins_Calc_WebApp) in the unsolved folder. Open it up in visual studio and fill in the comments sections with the code snippets provides below.
+For the in class demo grab the [file](https://github.com/Juan-Zambrano/Sample_Lesson_Plan/tree/master/1/Activites/Ins_Calc_WebApp) in the unsolved folder. Open it up in visual studio and fill in the comments sections with the code snippets provides below.
 
 After this is done the students have a version that picks up the program from where the instructor left it and their final activity consist of them adding more functionalilty in a similar fashion.
 
