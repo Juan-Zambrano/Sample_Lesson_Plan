@@ -25,14 +25,17 @@ namespace WebApplication1.Pages
 
         public void OnPost()
         {
+            //Instantiate calculator object
             Models.MathOperations calc = new Models.MathOperations();
-            calc.input_one =  Convert.ToDouble(Request.Form["num1"]);
-            calc.input_two = Convert.ToDouble(Request.Form["num2"]);
-            calc.operation = Request.Form["operation"];
 
+            //Access Form attributes
+
+            //run calc
             calc.Run();
 
+            //Display Value
             DisplayVal = calc.retval;
+
         }
 
         public void OnGet()
