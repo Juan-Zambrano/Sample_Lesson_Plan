@@ -236,9 +236,9 @@ Student Activity: [Stu_Calc_WebApp](https://github.com/Juan-Zambrano/Sample_Less
 
 Have the students take off where you left off by adding more functionalilty to the calculator web app. Have your TA assist and prevent students from getting overwhelmed with all of the features in visual studio.
 The three locations where students need to add features too are:
-    1. Pages/index.cshtml
-    2. Pages/index.cshtml.cs
-    3. Models/MathOperations.cs
+1. Pages/index.cshtml
+2. Pages/index.cshtml.cs
+3. Models/MathOperations.cs
     
  **Reframe students from modifying the Program.cs and Startup.cs files**
  
