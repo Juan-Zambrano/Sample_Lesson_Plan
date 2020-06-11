@@ -8,7 +8,7 @@ calculation.
 
 # **Use:**
  
-The factorial method is located inside the SpecialFunctions class. Feel use it directly in the MathOperations class since factorial is a static method or implement it inside that class manually.
+The factorial method is located inside the SpecialFunctions class. Feel free to use it directly in the MathOperations class since factorial is a static method or implement it inside that class manually.
 
 ```c# 
   public static int Factorial(int n)
