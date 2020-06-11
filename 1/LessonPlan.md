@@ -330,7 +330,7 @@ The three locations where students need to add features too are:
  
  Have students work in debug mode.
 
-Encourage students to take this application and continue to add more functionalilty to it after class (eg. Tan(x),Sin(x),e^x). If time permits go over the ![solution file](https://github.com/Juan-Zambrano/Sample_Lesson_Plan/tree/master/1/Activites/Ins_Calc_WebApp/Solved/WebApplication1) during class. Begin the next class with a brief review of this activity solution.
+Encourage students to take this application and continue to add more functionalilty to it after class (eg. Tan(x),Sin(x),e^x). If time permits go over the [solution file](https://github.com/Juan-Zambrano/Sample_Lesson_Plan/tree/master/1/Activites/Ins_Calc_WebApp/Solved/WebApplication1) during class. Begin the next class with a brief review of this activity solution.
 
 ---
 
