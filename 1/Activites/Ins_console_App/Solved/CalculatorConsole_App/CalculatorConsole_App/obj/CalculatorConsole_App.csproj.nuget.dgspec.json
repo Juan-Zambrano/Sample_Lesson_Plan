@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\juanz\\Documents\\FinTech\\Sample_Lesson_Plan\\1\\Activites\\Ins_console_App\\Unsolved\\CalculatorConsole_App\\CalculatorConsole_App\\CalculatorConsole_App.csproj": {}
+    "C:\\Users\\juanz\\Documents\\FinTech\\Sample_Lesson_Plan\\1\\Activites\\Ins_console_App\\Solved\\CalculatorConsole_App\\CalculatorConsole_App\\CalculatorConsole_App.csproj": {}
   },
   "projects": {
-    "C:\\Users\\juanz\\Documents\\FinTech\\Sample_Lesson_Plan\\1\\Activites\\Ins_console_App\\Unsolved\\CalculatorConsole_App\\CalculatorConsole_App\\CalculatorConsole_App.csproj": {
+    "C:\\Users\\juanz\\Documents\\FinTech\\Sample_Lesson_Plan\\1\\Activites\\Ins_console_App\\Solved\\CalculatorConsole_App\\CalculatorConsole_App\\CalculatorConsole_App.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\juanz\\Documents\\FinTech\\Sample_Lesson_Plan\\1\\Activites\\Ins_console_App\\Unsolved\\CalculatorConsole_App\\CalculatorConsole_App\\CalculatorConsole_App.csproj",
+        "projectUniqueName": "C:\\Users\\juanz\\Documents\\FinTech\\Sample_Lesson_Plan\\1\\Activites\\Ins_console_App\\Solved\\CalculatorConsole_App\\CalculatorConsole_App\\CalculatorConsole_App.csproj",
         "projectName": "CalculatorConsole_App",
-        "projectPath": "C:\\Users\\juanz\\Documents\\FinTech\\Sample_Lesson_Plan\\1\\Activites\\Ins_console_App\\Unsolved\\CalculatorConsole_App\\CalculatorConsole_App\\CalculatorConsole_App.csproj",
+        "projectPath": "C:\\Users\\juanz\\Documents\\FinTech\\Sample_Lesson_Plan\\1\\Activites\\Ins_console_App\\Solved\\CalculatorConsole_App\\CalculatorConsole_App\\CalculatorConsole_App.csproj",
         "packagesPath": "C:\\Users\\juanz\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\juanz\\Documents\\FinTech\\Sample_Lesson_Plan\\1\\Activites\\Ins_console_App\\Unsolved\\CalculatorConsole_App\\CalculatorConsole_App\\obj\\",
+        "outputPath": "C:\\Users\\juanz\\Documents\\FinTech\\Sample_Lesson_Plan\\1\\Activites\\Ins_console_App\\Solved\\CalculatorConsole_App\\CalculatorConsole_App\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Microsoft\\Xamarin\\NuGet\\"

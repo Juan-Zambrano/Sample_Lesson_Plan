@@ -50,12 +50,7 @@ namespace WebApplication1.Models
             {
                 _Calculate_Factorial();
             }
-            else
-            {
-                Console.WriteLine("There as been an error.");
-                //If this value appears then there is something wrong with the input value.
-            }
-
+           
         }
 
 
