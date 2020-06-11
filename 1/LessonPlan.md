@@ -6,24 +6,22 @@
 
 write overview of today's class
 
-### Class Objectives 
+# Class Objectives 
 
-# Declarative Memory Objectives (concepts/facts/semantics)
+### Declarative Memory Objectives (concepts/facts/semantics)
 
-* objective 1
+* .NET core concepts
 
-* objective 2
+* C# and objective oriented concepts required for .NET
 
-# Procedural Memory Objectives (learn by doing/type and hand write code)
-
-* Complete syntax coding activity (notebook) 
+### Procedural Memory Objectives (learn by doing/type and hand write code)
 
 * Write a calculator console application. (Visual Studio)
 
-* Write simple OOP console application(Visual Studio)
-**Goal of this activity is to have students remember basic objective oriented programming principles that are needed for a simple a web application. (last activity)
+* Hand write simple OOP hello world application
+**Goal of this activity is to have students remember basic objective oriented programming principles that are needed for a simple a web application.
 
-* Write a simple ASP.NET MVC
+* Write a simple ASP.NET web application (Visual Studio)
 
 ### Class Slides
 
