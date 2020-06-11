@@ -1,4 +1,4 @@
-### This activity is meant to introduce you to a web application's in .NET.
+### This activity is meant to introduce you to web application's in .NET.
 The objective of this execrise is not to get an expert level understanding of ASP.NET web apps , but rather to highlight how quickly and with ease
 one can get a website up with ASP.NET. In further sections we will divide more into the roots behind this framework.
 
