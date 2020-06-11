@@ -182,7 +182,7 @@ There are many approaches to web development in the .NET Platform, where the mos
 Explaining to students that by using the .Net framework for web , you do not have to write client-side javascript. In fact you write in C# and microsoft magic happens.
 
 **Warning no human javascript was written in the making of this web app** 
-![razor_page](1/Activites/Stu_Calc_WebApp/final_app.PNG)
+![razor_page](https://github.com/Juan-Zambrano/Sample_Lesson_Plan/blob/master/1/Activites/Stu_Calc_WebApp/final_app.PNG)
 
 ### 9. Instructor Do: Implement logic from console app into web application (8 minutes)
 For the in class demo grab the [file](https://github.com/Juan-Zambrano/Sample_Lesson_Plan/tree/master/1/Activites/Ins_Calc_WebApp) in the unsolved folder. Open it up in visual studio and fill in the comments sections with the code snippets provides below.
