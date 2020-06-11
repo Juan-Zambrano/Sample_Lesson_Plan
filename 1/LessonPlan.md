@@ -105,13 +105,13 @@ Share this reasource with students for more syntax documentation [c#](https://ww
 ### 5. Instructor Do: Talk about visual studio and create sample project (5 min)
 ![Visual_Studio](https://visualstudio.microsoft.com/wp-content/uploads/2019/06/combined-gif2sl.gif)
 
-The solution file to this sample project is located ![here](https://github.com/Juan-Zambrano/Sample_Lesson_Plan/tree/master/1/Activites/Ins_console_App/Solved)
+The solution file to this sample project is located [here](https://github.com/Juan-Zambrano/Sample_Lesson_Plan/tree/master/1/Activites/Ins_console_App/Solved)
 
 Run this application in debug mode and highlight on some of features that visual studio provides. Meantion to students that there is some slight difference's between visual studio on windows,mac, and linux. 
 
 Create a console app that is similar to the app below. Make sure it is a calculator team with the two methods below since we will be further enhancing this idea throughout this lecture. Make sure to high-light on some of visual studio dominant features such as intellisense,debug mode, break point, and accessing the nuget package.
 
-For more reference on visual studio refer to this ![link](https://visualstudio.microsoft.com/vs/features/net-development/)
+For more reference on visual studio refer to this [link](https://visualstudio.microsoft.com/vs/features/net-development/)
 
 ```c#
 using System;
