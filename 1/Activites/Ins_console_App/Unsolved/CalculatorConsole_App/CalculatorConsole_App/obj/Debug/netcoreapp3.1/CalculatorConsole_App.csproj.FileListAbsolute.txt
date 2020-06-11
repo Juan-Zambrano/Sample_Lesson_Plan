@@ -1,0 +1,13 @@
+C:\Users\juanz\Documents\FinTech\Sample_Lesson_Plan\1\Activites\Ins_console_App\Unsolved\CalculatorConsole_App\CalculatorConsole_App\bin\Debug\netcoreapp3.1\CalculatorConsole_App.exe
+C:\Users\juanz\Documents\FinTech\Sample_Lesson_Plan\1\Activites\Ins_console_App\Unsolved\CalculatorConsole_App\CalculatorConsole_App\bin\Debug\netcoreapp3.1\CalculatorConsole_App.deps.json
+C:\Users\juanz\Documents\FinTech\Sample_Lesson_Plan\1\Activites\Ins_console_App\Unsolved\CalculatorConsole_App\CalculatorConsole_App\bin\Debug\netcoreapp3.1\CalculatorConsole_App.runtimeconfig.json
+C:\Users\juanz\Documents\FinTech\Sample_Lesson_Plan\1\Activites\Ins_console_App\Unsolved\CalculatorConsole_App\CalculatorConsole_App\bin\Debug\netcoreapp3.1\CalculatorConsole_App.runtimeconfig.dev.json
+C:\Users\juanz\Documents\FinTech\Sample_Lesson_Plan\1\Activites\Ins_console_App\Unsolved\CalculatorConsole_App\CalculatorConsole_App\bin\Debug\netcoreapp3.1\CalculatorConsole_App.dll
+C:\Users\juanz\Documents\FinTech\Sample_Lesson_Plan\1\Activites\Ins_console_App\Unsolved\CalculatorConsole_App\CalculatorConsole_App\bin\Debug\netcoreapp3.1\CalculatorConsole_App.pdb
+C:\Users\juanz\Documents\FinTech\Sample_Lesson_Plan\1\Activites\Ins_console_App\Unsolved\CalculatorConsole_App\CalculatorConsole_App\obj\Debug\netcoreapp3.1\CalculatorConsole_App.csprojAssemblyReference.cache
+C:\Users\juanz\Documents\FinTech\Sample_Lesson_Plan\1\Activites\Ins_console_App\Unsolved\CalculatorConsole_App\CalculatorConsole_App\obj\Debug\netcoreapp3.1\CalculatorConsole_App.csproj.CoreCompileInputs.cache
+C:\Users\juanz\Documents\FinTech\Sample_Lesson_Plan\1\Activites\Ins_console_App\Unsolved\CalculatorConsole_App\CalculatorConsole_App\obj\Debug\netcoreapp3.1\CalculatorConsole_App.AssemblyInfoInputs.cache
+C:\Users\juanz\Documents\FinTech\Sample_Lesson_Plan\1\Activites\Ins_console_App\Unsolved\CalculatorConsole_App\CalculatorConsole_App\obj\Debug\netcoreapp3.1\CalculatorConsole_App.AssemblyInfo.cs
+C:\Users\juanz\Documents\FinTech\Sample_Lesson_Plan\1\Activites\Ins_console_App\Unsolved\CalculatorConsole_App\CalculatorConsole_App\obj\Debug\netcoreapp3.1\CalculatorConsole_App.dll
+C:\Users\juanz\Documents\FinTech\Sample_Lesson_Plan\1\Activites\Ins_console_App\Unsolved\CalculatorConsole_App\CalculatorConsole_App\obj\Debug\netcoreapp3.1\CalculatorConsole_App.pdb
+C:\Users\juanz\Documents\FinTech\Sample_Lesson_Plan\1\Activites\Ins_console_App\Unsolved\CalculatorConsole_App\CalculatorConsole_App\obj\Debug\netcoreapp3.1\CalculatorConsole_App.genruntimeconfig.cache
